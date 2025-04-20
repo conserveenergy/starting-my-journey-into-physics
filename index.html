@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Learning Journey</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        .chapter {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+        .chapter h3 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+        .topics {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .topic-link {
+            display: inline-block;
+            padding: 8px 15px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .topic-link:hover {
+            background-color: #2980b9;
+        }
+        .progress {
+            font-size: 0.9em;
+            color: #7f8c8d;
+            margin-top: 5px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+            .topics {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Physics Learning Journey</h1>
+        <p>Welcome to my physics learning repository. Here I document my progress as I study physics topic by topic. This page serves as an index for all the concepts I'm learning.</p>
+        
+        <h2>Classical Mechanics</h2>
+        <div class="chapter">
+            <h3>Chapter 1: Kinematics</h3>
+            <div class="topics">
+                <a href="kinematics/rectilinear_motion.html" class="topic-link">Rectilinear Motion</a>
+                <a href="kinematics/projectile_motion.html" class="topic-link">Projectile Motion</a>
+                <a href="kinematics/circular_motion.html" class="topic-link">Circular Motion</a>
+                <!-- Add more topics as needed -->
+            </div>
+            <div class="progress">3 topics | Last updated: 2023-11-15</div>
+        </div>
+        
+        <div class="chapter">
+            <h3>Chapter 2: Dynamics</h3>
+            <div class="topics">
+                <a href="dynamics/newtons_laws.html" class="topic-link">Newton's Laws</a>
+                <a href="dynamics/friction.html" class="topic-link">Friction</a>
+                <a href="dynamics/work_energy.html" class="topic-link">Work and Energy</a>
+                <a href="dynamics/momentum.html" class="topic-link">Momentum</a>
+                <!-- Add more topics as needed -->
+            </div>
+            <div class="progress">4 topics | Last updated: 2023-11-20</div>
+        </div>
+        
+        <h2>Electromagnetism</h2>
+        <div class="chapter">
+            <h3>Chapter 1: Electrostatics</h3>
+            <div class="topics">
+                <a href="electrostatics/coulombs_law.html" class="topic-link">Coulomb's Law</a>
+                <a href="electrostatics/electric_fields.html" class="topic-link">Electric Fields</a>
+                <a href="electrostatics/gauss_law.html" class="topic-link">Gauss's Law</a>
+                <!-- Add more topics as needed -->
+            </div>
+            <div class="progress">3 topics | In progress</div>
+        </div>
+        
+        <div class="chapter">
+            <h3>Chapter 2: Magnetism</h3>
+            <div class="topics">
+                <a href="magnetism/magnetic_fields.html" class="topic-link">Magnetic Fields</a>
+                <a href="magnetism/ampere_law.html" class="topic-link">Ampère's Law</a>
+                <!-- Add more topics as needed -->
+            </div>
+            <div class="progress">2 topics | Not started</div>
+        </div>
+        
+        <h2>Modern Physics</h2>
+        <div class="chapter">
+            <h3>Chapter 1: Quantum Mechanics</h3>
+            <div class="topics">
+                <a href="quantum/wave_particle.html" class="topic-link">Wave-Particle Duality</a>
+                <a href="quantum/schrodinger.html" class="topic-link">Schrödinger Equation</a>
+                <!-- Add more topics as needed -->
+            </div>
+            <div class="progress">2 topics | Not started</div>
+        </div>
+        
+        <div class="chapter">
+            <h3>Chapter 2: Relativity</h3>
+            <div class="topics">
+                <a href="relativity/special.html" class="topic-link">Special Relativity</a>
+                <a href="relativity/general.html" class="topic-link">General Relativity</a>
+                <!-- Add more topics as needed -->
+            </div>
+            <div class="progress">2 topics | Not started</div>
+        </div>
+        
+        <footer>
+            <p>Physics Learning Project | Started: 2023-11-01 | Last Updated: 2023-11-20</p>
+        </footer>
+    </div>
+</body>
+</html>
